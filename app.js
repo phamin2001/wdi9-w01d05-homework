@@ -84,7 +84,7 @@ if(personAge > 16) {
 }
 
 // II. Loops
-
+// A. The basics
 // 1.
 for(let i = 0; i < 11; i++) {
     console.log(i);
@@ -98,4 +98,12 @@ for(let i = 10; i < 401; i++) {
 // 3.
 for(let i = 12; i < 4000; i+=3) {
     console.log(i);
+}
+
+// B. Get even
+// 1.
+for(let i = 0; i < 100; i++) {
+    if(i % 2 === 0) {
+        console.log(`${i} is an even number.`);
+    }
 }
