@@ -142,3 +142,10 @@ for(let i = 0; i < 1000; i++) {
     }
 }
 console.log(muliple);
+
+// III. Arrays & Control flow
+
+// A. Talk about it
+// 1. index
+// 2. yes, indexes is in order starting from 0
+// 3. kid's pastille
