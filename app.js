@@ -149,3 +149,8 @@ console.log(muliple);
 // 1. index
 // 2. yes, indexes is in order starting from 0
 // 3. kid's pastille
+
+// B. Easy Does It
+let quotes = ["Those who dare to fail miserably can achieve greatly.", 
+            "Let us always meet each other with smile, for the smile is the beginning of love",
+             "Love is a serious mental disease"];
