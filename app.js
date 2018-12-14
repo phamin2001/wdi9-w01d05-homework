@@ -118,3 +118,18 @@ for(let i = 0; i < 100; i++) {
         console.log(`I found a ${i}. Three is a crowd`);
     }
 }
+
+// D. Savings account
+// 1.
+let bank_account = 0;
+for (let i = 1; i < 11; i++) {
+    bank_account += i;
+}
+console.log(bank_account);
+
+// 2.
+bank_account = 0;
+for (let i = 1; i < 101; i++) {
+    bank_account += i * 2;
+}
+console.log(bank_account);
