@@ -28,7 +28,7 @@
 // like a computer would, without getting errors or distracted by syntax.
 
 // 6.
-// 75-90 percent thinking and 10-25 percent actually coding
+// 75-90 percent thinking and 10-25 percent coding
 
 
 
@@ -72,3 +72,9 @@ if (animal === "cow") {
 }
 
 // E. Driver's Ed
+let personAge = 45;
+if(personAge > 16) {
+    console.log("Here are the keys");
+} else{
+    console.log("Sorry, you're too young.");
+}
