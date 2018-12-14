@@ -72,9 +72,30 @@ if (animal === "cow") {
 }
 
 // E. Driver's Ed
+
+// 1.
 let personAge = 45;
+
+// 2. & 3.
 if(personAge > 16) {
     console.log("Here are the keys");
 } else{
     console.log("Sorry, you're too young.");
+}
+
+// II. Loops
+
+// 1.
+for(let i = 0; i < 11; i++) {
+    console.log(i);
+}
+
+// 2.
+for(let i = 10; i < 401; i++) {
+    console.log(i);
+}
+
+// 3.
+for(let i = 12; i < 4000; i+=3) {
+    console.log(i);
 }
