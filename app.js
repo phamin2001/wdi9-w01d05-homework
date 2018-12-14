@@ -28,7 +28,7 @@
 // like a computer would, without getting errors or distracted by syntax.
 
 // 6.
-// ??
+// 75-90 percent thinking and 10-25 percent actually coding
 
 
 
@@ -70,3 +70,5 @@ if (animal === "cow") {
 } else {
     console.log("Hey! You're not a cow.");
 }
+
+// E. Driver's Ed
