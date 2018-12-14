@@ -133,3 +133,12 @@ for (let i = 1; i < 101; i++) {
     bank_account += i * 2;
 }
 console.log(bank_account);
+
+// E. Multiples of 3 and 5
+let muliple = 0
+for(let i = 0; i < 1000; i++) {
+    if(i % 3 === 0 || i % 5 === 0) {
+        muliple += i;
+    }
+}
+console.log(muliple);
