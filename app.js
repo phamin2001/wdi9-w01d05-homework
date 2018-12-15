@@ -327,3 +327,14 @@ function getTwoLengths(str1, str2) {
     return [str1.length, str2.length];
 }
 console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+
+// F. getMultipleLengths
+function getMultipleLengths(arrOfStr) {
+    let lengthOfString =[];
+    for(let i = 0; i < arrOfStr.length; i++) {
+        lengthOfString.push(arrOfStr[i].length);
+    }
+    return lengthOfString;
+}
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
