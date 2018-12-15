@@ -231,3 +231,64 @@ if(variable < 5) {
 } else{
     console.log("monkey");
 }
+
+
+
+// H. What's in Your Closet?
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  // 1. 
+  console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+
+  // 2.
+  kristynsCloset.splice(6, 0, "raybans");
+  console.log(kristynsCloset);
+
+  // 3.
+  kristynsCloset.splice(5, 1, "stained knit hat");
+  console.log(kristynsCloset);
+
+  // 4.
+console.log(thomsCloset[0][0]);
+
+// 5.
+console.log(thomsCloset[1][0]);
+
+// 6.
+console.log(thomsCloset[2][2]);
+
+// 7.
+console.log("Thom is looking fierce in a " + thomsCloset[0][1] + ", " + thomsCloset[1][1] + 
+            " and " + thomsCloset[2][1] + "!");
+
+// 8.
+thomsCloset[1].splice(2, 1, "Footie Pajamas");
+console.log(thomsCloset);
