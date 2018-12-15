@@ -212,3 +212,11 @@ console.log(myArray);
 // Yes, I mutated the array. It means I've changed the original order of items in the array. 
 // reverse() method returnes a reference to the reversed array.
 
+
+// F. Biggie Smalls
+let variable = 100;
+if(variable < 100) {
+    console.log("little number");
+} else {
+    console.log("big number");
+}
