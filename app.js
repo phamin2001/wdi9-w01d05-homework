@@ -220,3 +220,14 @@ if(variable < 100) {
 } else {
     console.log("big number");
 }
+
+
+// G. Monkey in the Middle
+variable = 8;
+if(variable < 5) {
+    console.log("little number");
+} else if(variable > 10) {
+    console.log("big number");
+} else{
+    console.log("monkey");
+}
