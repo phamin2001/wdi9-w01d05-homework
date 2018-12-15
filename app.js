@@ -102,7 +102,7 @@ for(let i = 12; i < 4000; i+=3) {
 }
 
 // B. Get even
-// 1.
+// 1. 2.
 for(let i = 0; i < 100; i++) {
     if(i % 2 === 0) {
         console.log(`${i} is an even number.`);
@@ -111,6 +111,7 @@ for(let i = 0; i < 100; i++) {
 
 
 // C. Give me Five
+// 1. 2.
 for(let i = 0; i < 100; i++) {
     if(i % 5 === 0) {
         console.log(`I found a ${i}. High five!`);
@@ -154,3 +155,31 @@ console.log(muliple);
 let quotes = ["Those who dare to fail miserably can achieve greatly.", 
             "Let us always meet each other with smile, for the smile is the beginning of love",
              "Love is a serious mental disease"];
+
+             
+// C. Accessing elements
+const randomThings = [1, 10, "Hello", true];
+
+// 1.
+console.log(randomThings[0]);
+
+// 2.
+randomThings[2] = "World";
+
+// 3.
+console.log(randomThings);
+
+
+// D. Change values
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+// 1.
+console.log(ourClass[2]);
+
+// 2.
+ourClass[4] = "Octocat";
+console.log(ourClass[4]);
+
+// 3.
+ourClass.push("Cloud City");
+console.log(ourClass);
