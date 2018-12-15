@@ -343,4 +343,4 @@ console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 function maxOfThree(num1, num2, num3) {
     return Math.max(num1, num2, num3);
 }
-console.log(maxOfThree(6, 9, 1));
+console.log(maxOfThree(9, 19, 3));
