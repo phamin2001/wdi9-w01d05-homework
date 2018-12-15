@@ -292,3 +292,12 @@ console.log("Thom is looking fierce in a " + thomsCloset[0][1] + ", " + thomsClo
 // 8.
 thomsCloset[1].splice(2, 1, "Footie Pajamas");
 console.log(thomsCloset);
+
+
+
+// IV. Functions
+// A. `printGreeting`
+function printGreeting(name) {
+    return `Hello there, ${name}!`;
+}
+console.log(printGreeting("Slimer"));
