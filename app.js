@@ -301,3 +301,9 @@ function printGreeting(name) {
     return `Hello there, ${name}!`;
 }
 console.log(printGreeting("Slimer"));
+
+// B. `printCool`
+function printCool(name) {
+    return `${name} is cool`;
+}
+console.log(printCool("Caption Reynolds"));
