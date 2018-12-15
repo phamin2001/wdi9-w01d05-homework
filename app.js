@@ -183,3 +183,32 @@ console.log(ourClass[4]);
 // 3.
 ourClass.push("Cloud City");
 console.log(ourClass);
+
+// E. Mix It Up
+const myArray = [5, 10, 500, 20];
+console.log(myArray);
+
+// 1.
+myArray.push("Egon");
+myArray.push("I am so cool!");
+console.log(myArray);
+
+
+// 2.
+myArray.splice(0,1);
+console.log(myArray);
+
+// 3.
+myArray.splice(0, 0, "Bob Marley");
+console.log(myArray);
+
+// 4.
+myArray.pop();
+console.log(myArray);
+
+// 5.
+myArray.reverse();
+console.log(myArray);
+// Yes, I mutated the array. It means I've changed the original order of items in the array. 
+// reverse() method returnes a reference to the reversed array.
+
