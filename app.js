@@ -322,3 +322,8 @@ function isVowel(char) {
 }
 console.log(isVowel('Z'));
 
+// E. getTwoLengths
+function getTwoLengths(str1, str2) {
+    return [str1.length, str2.length];
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
