@@ -307,3 +307,9 @@ function printCool(name) {
     return `${name} is cool`;
 }
 console.log(printCool("Caption Reynolds"));
+
+// C. `calculateCube`
+function calculateCube(num) {
+    return Math.pow(num, 3);
+}
+console.log(calculateCube(5));
