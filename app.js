@@ -313,3 +313,12 @@ function calculateCube(num) {
     return Math.pow(num, 3);
 }
 console.log(calculateCube(5));
+
+// D. `isVowel`
+function isVowel(char) {
+    char = char.toLowerCase();
+    let vowels = "aeiou";
+    return vowels.search(char) !== -1 ? true : false;
+}
+console.log(isVowel('Z'));
+
