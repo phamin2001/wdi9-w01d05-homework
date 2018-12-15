@@ -338,3 +338,9 @@ function getMultipleLengths(arrOfStr) {
     return lengthOfString;
 }
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// G. maxOfThree
+function maxOfThree(num1, num2, num3) {
+    return Math.max(num1, num2, num3);
+}
+console.log(maxOfThree(6, 9, 1));
