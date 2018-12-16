@@ -459,10 +459,20 @@ console.log(quotesArray());
 // Objects
 
 // A. Make a user object
-// 1.
-const uder = {
+// 1. 2.
+const user = {
     name: "Amin",
     email: "am@am.com",
     age: 40,
     purchased: []
 }
+
+
+// B. Update the user
+// 1.
+user.email = "cc@cc.org";
+console.log(user.email);
+
+// 2.
+user.age++;
+console.log(user.age);
