@@ -574,8 +574,8 @@ const cat1 = {
     breed: 'persian',
     age: 4
 }
-console.log(cat1.age);
-console.log(cat1.breed);
+// console.log(cat1.age);
+// console.log(cat1.breed);
 
 // 2.
 const cat2 = {
@@ -586,12 +586,17 @@ const cat2 = {
 
 // 3. Combine Cats!
 function combineCats(mama, papa) {
-    console.log({name: `${mama.name}`, age: `${mama.age}`, breed: `${mama.breed}`});
-    console.log({name: `${papa.name}`, age: `${papa.age}`, breed: `${papa.breed}`});
+    // console.log({name: `${mama.name}`, age: `${mama.age}`, breed: `${mama.breed}`});
+    // console.log({name: `${papa.name}`, age: `${papa.age}`, breed: `${papa.breed}`});
 
-    console.log({name: `${mama.name}${papa.name}`, age: mama.age, breed: `${mama.breed}-${papa.breed}`});
+    return {name: `${mama.name}${papa.name}`, age: mama.age, breed: `${mama.breed}-${papa.breed}`};
 }
 
-combineCats(cat1, cat2);
+console.log(combineCats(cat1, cat2));
+
+// 4. Cat brain bender
+console.log(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)));
+
+console.log(combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)), combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2))));
 
 
