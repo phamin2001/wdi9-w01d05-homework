@@ -527,3 +527,17 @@ user.friend.purchased.push("A latte");
 
 // 7.
 console.log(user.friend.purchased[user.friend.purchased.length - 1]);
+
+
+
+// F. Loops
+
+// 1.
+for(let i = 0; i < user.purchased.length; i++) {
+    console.log(user.purchased[i]);
+}
+
+// 2.
+for(let i = 0; i < user.friend.purchased.length; i++) {
+    console.log(user.friend.purchased[i]);
+}
