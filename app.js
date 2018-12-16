@@ -541,3 +541,23 @@ for(let i = 0; i < user.purchased.length; i++) {
 for(let i = 0; i < user.friend.purchased.length; i++) {
     console.log(user.friend.purchased[i]);
 }
+
+
+// G. Functions can operate on objects
+
+// 1.
+function updateUser() {
+    user.age++;
+    user['name'] = user.name.toUpperCase();
+    console.log(user);
+}
+
+updateUser();
+
+// 2.
+function oldAndLoud(person) {
+    person.age++;
+    person['name'] = person.name.toUpperCase();
+    console.log(user);
+}
+oldAndLoud(user);
