@@ -561,3 +561,37 @@ function oldAndLoud(person) {
     console.log(user);
 }
 oldAndLoud(user);
+
+
+//=================================================
+// Hungry for More?
+
+// Cat Combinator
+// 1. Mama cat
+
+const cat1 = {
+    name: 'moa',
+    breed: 'persian',
+    age: 4
+}
+console.log(cat1.age);
+console.log(cat1.breed);
+
+// 2.
+const cat2 = {
+    name: 'patty',
+    breed: 'german',
+    age: 7
+}
+
+// 3. Combine Cats!
+function combineCats(mama, papa) {
+    console.log({name: `${mama.name}`, age: `${mama.age}`, breed: `${mama.breed}`});
+    console.log({name: `${papa.name}`, age: `${papa.age}`, breed: `${papa.breed}`});
+
+    console.log({name: `${mama.name}${papa.name}`, age: mama.age, breed: `${mama.breed}-${papa.breed}`});
+}
+
+combineCats(cat1, cat2);
+
+
