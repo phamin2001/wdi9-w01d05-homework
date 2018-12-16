@@ -476,3 +476,8 @@ console.log(user.email);
 // 2.
 user.age++;
 console.log(user.age);
+
+// C. Adding keys and values
+// 1.
+user['location'] = "Denver";
+console.log(user.location);
