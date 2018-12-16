@@ -371,3 +371,32 @@ function transmogrify(num1, num2, num3) {
     return Math.pow((num1 * num2), num3);
 }
 console.log(transmogrify(5, 3, 2));
+
+// J. `reverseWordOrder` v2
+function reverseWordOrder(strWords) {
+    let reverseStrWords = "";
+    
+    let arrayOfWords = [];
+    
+    let word = "";
+
+
+    for(let i = 0; i < strWords.length; i++) {
+        if(strWords[i] === " " || i === (strWords.length - 1)) {
+            arrayOfWords.push(word);
+            word = "";
+        } else{
+            word += strWords[i];
+        }        
+    }
+
+    while(s = arrayOfWords.pop()) {
+        reverseStrWords += s + " ";
+    }
+
+    return reverseStrWords;
+} 
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("I use Lâncome on my comb"));
+
+
