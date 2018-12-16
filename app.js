@@ -400,3 +400,57 @@ console.log(reverseWordOrder("Ishmael me Call"));
 console.log(reverseWordOrder("I use Lâncome on my comb"));
 
 
+// K. Get down and dirty with `Math.random()`
+function randomNumber() {
+    // 1.
+    let randomArray1to10 = [];
+    for (let i = 1; i < 20; i++) {
+        randomArray1to10.push((Math.floor(Math.random() * 10)) + 1);
+    }
+    console.log(randomArray1to10);
+
+    // 2.
+    let randomArray10to100 = [];
+    for (let i = 1; i < 200; i++) {
+        randomArray10to100.push((Math.floor(Math.random() * (100 - 10 + 1))) + 10);
+    }
+    console.log(randomArray10to100);
+
+    // 3.
+    let randomArray532to13267 = [];
+    for (let i = 1; i < 15000; i++) {
+        randomArray532to13267.push((Math.floor(Math.random() * (13267 - 532 + 1))) + 532);
+    }
+    console.log(randomArray532to13267);
+
+    // 4.
+    let randomArray1to10_2 = [];
+    for (let i = 1; i < 20; i++) {
+        randomArray1to10_2.push((Math.floor(Math.random() * (10 - 1 + 1))) + 1);
+    }
+    console.log(randomArray1to10_2);
+}
+
+randomNumber();
+
+// 5.
+
+quotes = ["Those who dare to fail miserably can achieve greatly.", 
+            "Let us always meet each other with smile, for the smile is the beginning of love",
+             "Love is a serious mental disease", 
+             "It is hard to fail, but it is worse never to have tried to succeed.",
+             "If you want to be happy, be"];
+
+function getRandomElement(quotes) {
+    return (quotes[Math.floor(Math.random() * (quotes.length - 0)) + 0]);
+}
+
+function quotesArray() {
+    let quotesArray = [];
+    for(let i = 0; i < 10; i++) {
+        quotesArray.push(getRandomElement(quotes));
+    }
+    return quotesArray;
+}
+
+console.log(quotesArray());
