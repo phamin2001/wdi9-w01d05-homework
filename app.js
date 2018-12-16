@@ -344,3 +344,20 @@ function maxOfThree(num1, num2, num3) {
     return Math.max(num1, num2, num3);
 }
 console.log(maxOfThree(9, 19, 3));
+
+// H. `printLongestWord`
+function printLongestWord(arrOfStr) {
+    let lengthOfWordInArray = getMultipleLengths(arrOfStr);
+    let maxLength = Math.max.apply(null, lengthOfWordInArray);
+
+    let i = 0;
+    for(; i < lengthOfWordInArray.length; i++) {
+        if(lengthOfWordInArray[i] === maxLength) {
+            break;
+        }
+    }
+    return arrOfStr[i];
+}
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", 
+                            "Peanutbutter", "big", "Todd", "abcdfredtuyh"]));
