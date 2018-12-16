@@ -481,3 +481,19 @@ console.log(user.age);
 // 1.
 user['location'] = "Denver";
 console.log(user.location);
+
+// D. Shopaholic!
+// 1. 
+user.purchased.push('carbohydrates');
+console.log(user.purchased);
+
+// 2.
+user.purchased.push('peace of mind');
+console.log(user.purchased);
+
+// 3.
+user.purchased.push('Merino jodhpurs');
+console.log(user.purchased);
+
+// 4.
+console.log(user.purchased[user.purchased.length - 1]);
