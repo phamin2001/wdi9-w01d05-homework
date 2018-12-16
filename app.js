@@ -454,3 +454,15 @@ function quotesArray() {
 }
 
 console.log(quotesArray());
+
+
+// Objects
+
+// A. Make a user object
+// 1.
+const uder = {
+    name: "Amin",
+    email: "am@am.com",
+    age: 40,
+    purchased: []
+}
